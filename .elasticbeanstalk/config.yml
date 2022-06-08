@@ -1,5 +1,0 @@
-branch-defaults:
-  main:
-    environment: Covidtracker-env
-global:
-  profile: eb-cli
