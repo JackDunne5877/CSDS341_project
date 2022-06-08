@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c1c66ad-4f28-40dc-aeb2-76232235d090" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.ebextensions/python.config" beforeDir="false" afterPath="$PROJECT_DIR$/.ebextensions/python.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/enrolled.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/enrolled.do" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/organizations.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/organizations.do" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/participates.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/participates.do" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/residences.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/residences.do" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/section.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/section.do" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/student.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/student.do" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/tests.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/tests.do" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/vaccination.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/vaccination.do" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-elastic-beanstalk-cli-setup" beforeDir="false" afterPath="$PROJECT_DIR$/aws-elastic-beanstalk-cli-setup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-elastic-beanstalk-cli-setup/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-elastic-beanstalk-cli-setup/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-elastic-beanstalk-cli-setup/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27UpludCFQepnmzwtqBVFsbyS2q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c1c66ad-4f28-40dc-aeb2-76232235d090" name="Changes" comment="" />
+      <created>1649384672959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649384672959</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

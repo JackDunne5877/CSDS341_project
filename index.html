@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="one">
+        <h1>Style One</h1>
+    </div>
+    <input type="text" id = "livebox">
+    <p id = "datalist"></p>
+</body>
+<script>
+    $(document).ready(function(){
+        $("#livebox").on("input",function(e){
+            $("#datalist").empty();
+            $.ajax({
+                method:"post",
+                url:"/livesearch",
+                data:{text:$("#livebox").val()},
+                success:function(res){
+                    var data = "<ul>";
+                    $.each(res,function(index,value){
+                        data += "<li>"+value.word_eng+"</li>";
+                    });
+                    data += "</ul>";
+                    $("#datalist").html(data);
+                }
+            });
+        });
+    });
+</script>
+</html>

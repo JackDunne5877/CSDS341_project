@@ -1,5 +1,5 @@
 // VACCINATION
-cd "C:\Users\K\Documents\S2022\CSDS 341\Final Project\Data"
+cd "C:\Users\K\Documents\S2022\CSDS 341\Data"
 clear
 
 // Create the total number of students
@@ -27,12 +27,13 @@ tostring month, replace
 gen day = floor(28*runiform() + 1)
 tostring day, replace
 
-gen last_dose_date = month + "-" + day + "-" + year if num_doses > 0
-
+gen last_dose_date = year + "-" + month + "-" + day if num_doses > 0
+replace last_dose_date = "0001-01-01" if num_doses == 0
 // dose-type
 gen dose_type = "johnson" if num_doses > 0
 replace dose_type = "moderna" if (num_doses > 0) & (rand2 > 0.2)
 replace dose_type = "pfizer" if (num_doses > 0) & (rand2 > 0.6)
+replace dose_type = "none" if dose_type == ""
 
 drop rand rand2 year month day
 
